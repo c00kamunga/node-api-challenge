@@ -16,12 +16,12 @@ The Minimum Viable Product must be completed in three hours.
 
 Follow these steps to set up and work on your project:
 
--   [ ] Create a forked copy of this project.
--   [ ] Add your _Team Lead_ as collaborator on Github.
--   [ ] Clone your forked version of the Repository.
--   [ ] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
--   [ ] Implement the project on this Branch, committing changes regularly.
--   [ ] Push commits: git push origin `firstName-lastName`.
+-   [x] Create a forked copy of this project.
+-   [x] Add your _Team Lead_ as collaborator on Github.
+-   [x] Clone your forked version of the Repository.
+-   [x] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
+-   [x] Implement the project on this Branch, committing changes regularly.
+-   [x] Push commits: git push origin `firstName-lastName`.
 
 Follow these steps for completing your project.
 
@@ -38,15 +38,25 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
--   [ ] Mention two parts of Express that you learned about this week.
+-   [x] Mention two parts of Express that you learned about this week.
 
--   [ ] Describe Middleware?
+A1. I learned that routing is one of the main features of express meaning that we can map incoming requests to the appropriate request handler based on the URL and HTTP method that is being used. Express also allows us to use a single URL per source and execute different code based on the HTTP method that is being used.
 
--   [ ] Describe a Resource?
+-   [x] Describe Middleware?
 
--   [ ] What can the API return to help clients know if a request was successful?
+A2. Middleware allows us to add extra functionality to our application as a feature provided by express itself. We can create custom functions that handle tasks such as authentication and logging as well.
 
--   [ ] How can we partition our application into sub-applications?
+-   [x] Describe a Resource?
+
+A3. A resource is the data in the backend that the API is being built for. Such as a table of different fruits or types of clothing.
+
+-   [x] What can the API return to help clients know if a request was successful?
+
+A4. The api could return a status code of 200 which if translated means "OK".
+
+-   [x] How can we partition our application into sub-applications?
+
+A5. You can organize your data into different files which allow for scalability, reducing of contention, as well as optizing of performance.
 
 ## Minimum Viable Product
 
