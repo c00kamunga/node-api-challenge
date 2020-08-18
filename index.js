@@ -7,6 +7,9 @@ server.use(express.json())
 
 server.use('/', actionsRouter)
 
+
+
+
 server.listen(port, () => {
     console.log(`\n *** Server is listening on port ${port} ***\n`)
 })
